@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+        <h1> Aprendiendo Javascript</h1>
+        <p>Hola soy Cristian</p>
+
+<div id="datos"></div>
+
+        <section style="width: 100%; height: 100vh; border: 1px black solid; flex-direction: row; display: flex;" >
+        
+                <div onclick="mostrartexto()" id="item" style="border: solid black 1px; margin: 3px; width: 20%; height: 20%;">
+                </div>
+                <div onclick="mostrartexto()" id="item" style="border: solid black 1px; margin: 3px; width: 20%; height: 20%;">
+                </div> 
+                <div onclick="mostrartexto()" id="item" style="border: solid black 1px; margin: 3px; width: 20%; height: 20%;">
+                </div> 
+                <div onclick="mostrartexto()" id="item" style="border: solid black 1px; margin: 3px; width: 20%; height: 20%;">
+                </div> 
+                <div onclick="mostrartexto()" id="item" style="border: solid black 1px; margin: 3px; width: 20%; height: 20%;">
+                </div> 
+                <div onclick="mostrartexto()" id="item" style="border: solid black 1px; margin: 3px; width: 20%; height: 20%;">
+                </div>
+
+        </section>
+
+
+        <script> 
+
+                function mostrartexto(){
+
+                        var cuadro = document.getElementById("item");
+                        cuadro.innerHTML = `
+                        
+                                <h1> Hola mundo </h1>
+                        
+                        
+                        `;        
+        
+                        cuadro.style.width = "300px"
+                        cuadro.style.height = "300px"
+
+                //         document.getElementById("id").style.property="value"    
+                }
+        
+        
+        
+        
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+#form1{
+	background-color:#4682b4;
+	width:300px;
+	padding:20px;
+	margin:50px auto;
+}
+.label{
+	display:inline-block;
+	width:100px;
+	text-align:right;
+	margin-right:5px;
+	vertical-align:top;	
+	padding:12;
+	
+}
+.centro{
+	text-align:center;
+	margin:5px;
+	border:50px;
+}
+
+span{
+	display:inline-block;
+}
+
+
+
